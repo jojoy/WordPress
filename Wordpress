@@ -1,0 +1,102 @@
+What is WordPress?
+The WordPress web site defines WordPress as “web software you can use to create a beautiful website or blog. “ That describes it in the simplest form possible though I will try to expand on that. WordPress is the platform that we currently use for the majority of all client web sites. It was originally used for blogs but has since expanded to be used for full web sites, both personal and business. The main reason people prefer using WordPress now is that it is extremely easy to use, even for a beginner. Once the site is setup (that is where we come in) you will be able to update the content of your web site yourself, without having to know any programming at all! If you are able to create a document in Microsoft Word then you will be bale to update your web site, it is that easy.
+WordPress also allows your site to be expanded with incredible features thanks to the many plugins available. We will determine at the start of the project what you will need and everything will be setup and customized for you.
+Is a web site on WordPress secure?
+Out of the box WordPress is secure and you should not have to worry about any problems with your site. While we agree with that sentiment it does not stop us from taking extra steps to be positive your site will be secure. Part of the process of creating your site involves us taking extra measures to be sure your site will be secure for you. There are many things we will do that you will never need to understand, but unlike many design firms we will not just do a basic install and walk away. This will help prevent attacks against your web site (something that is not very common to begin with though).
+There is a common myth that WordPress web sites are more prone to be attacked or hacked than a normal web site. After working on nothing but WordPress sites and blogs for the past three years I have only had to go in and repair a single site and that was due to a problem with the host of the site and not the site itself. Major businesses now use WordPress for their web sites, I am sure they would not do so if they felt it was not secure.
+Will I have the ability to update my own content?
+That depends on the site/project itself. We have created sites where almost every aspect could be edited by the client (content, navigation, photos, forms, etc) and others where it was a simple setup to allow for the main content areas to be edited. This is something we will discuss when planning the project and determine what your need will be. At the very least you will be able to edit the site content yourself and the ability to add/remove photos.
+Do I need to know any programming to make updates?
+To initially setup a site and customize it you will, though you don’t need to worry about that because that is what we are doing for you. Once the site is setup we will train you on how to perform the updates (very simple) and you will be good to go. In order to perform the content updates you may need in the future you will not need to know any programming at all. I compared it earlier to using Microsoft Word and it really is that easy!
+Forget about having to hire a programmer to make simple text updates on your site from now on, you can go in and do it yourself in a matter of minutes.
+Will using WordPress help my site show up on Google?
+Yes. That is one of the major selling points of using WordPress is that it includes excellent built in search engine optimization (SEO). With a normal site you would need to include all of the SEO yourself (or hire someone). While it is still recommended that you hire someone for a full SEO campaign if needed, the built in SEO capabilities of WordPress more than enough to get you started.
+We will also install additional plugins to help with your SEO when you first launch the site. These are popular plugins that are known to help your rank on search engines such as Google and Bing.
+Do I need to have a blog in order to use WordPress for my site?
+WordPress was originally used as blogging software (and still is) though it has since become popular for web sites also. You do not need to include a blog on your web site in order to use WordPress. We have created a number of sites that do not have any blog at all but the client wanted the ability to update content themselves so we used WordPress.
+We do suggest having a blog because it will help with your search engine optimization. Though we only suggest that if you plan on updating the blog on a regular basis, otherwise having a blog without any updates is not going to do you any good.
+Are there any limitations to a WordPress web site?
+Not that we have found yet. You can use WordPress for e-commerce sites, membership sites, photo galleries and any other type of site you can think of. The web site is created using the same html code as any other site so there are no limitations there either. I have yet to find a reason not to use WordPress for any client site.
+What if I need help after the project?
+That is what we are here for! You will get full training at the conclusion of the project and we will be available for email support following the project when needed. Additional one on one training will be available at an additional cost if needed.
+Coming soon we will be launching a new members support area here on the web site that will include full training for clients only. This will include a number of PDF downloads, tutorials and video training. This will be available to all past and future clients.
+Who is the founder of WordPress?
+Matthew Charles Mullenweg.
+How many tables a default WordPress will have?
+A default wordpress will have 11 tables. They are- 
+1. wp_commentmeta 
+2. wp_comments 
+3. wp_links 
+4. wp_options 
+5. wp_postmeta 
+6. wp_posts 
+7. wp_terms 
+8. wp_term_relationships 
+9. wp_term_taxonomy 
+10.wp_usermeta 
+11.wp_users
+What are the features of WordPress?
+The key features of wordpress are - 
+1. Full standards compliance 
+2. No rebuilding 
+3. WordPress Pages 
+4. WordPress Links 
+5. WordPress Themes 
+6. Cross-blog communication tools 
+7. Comments 
+8. Spam protection 
+9. Full user registration 
+10. Password Protected Posts 
+11. Easy installation and upgrades 
+12. Easy Importing 
+13. XML-RPC interface 
+14. Workflow 
+15. Typographical niceties 
+16. Intelligent text formatting 
+17. Multiple authors 
+18. Bookmarklets 
+19. Ping away
+What does a special set of tags <?= and ?> do in PHP?
+The output is displayed directly to the browser.
+What’s the difference between include and require?
+It’s how they handle failures. If the file is not found by require(), it will cause a fatal error and halt the execution of the script. If the file is not found by include(), a warning will be issued, but execution will continue.
+I am trying to assign a variable the value of 0123, but it keeps coming up with a different number, what’s the problem?
+PHP Interpreter treats numbers beginning with 0 as octal. Look at the similar PHP interview questions for more numeric problems.
+Would I use print “$a dollars” or “{$a} dollars” to print out the amount of dollars in this example?
+In this example it wouldn’t matter, since the variable is all by itself, but if you were to print something like “{$a},000,000 mln dollars”, then you definitely need to use the braces.
+How do you define a constant?
+Via define() directive, like define (“MYCONSTANT”, 100);
+How do you pass a variable by value?
+Just like in C++, put an ampersand in front of it, like $a = &$b
+Will comparison of string “10″ and integer 11 work in PHP?
+Yes, internally PHP will cast everything to the integer type, so numbers 10 and 11 will be compared.
+When are you supposed to use endif to end the conditional statement?
+When the original if was followed by : and then the code block without braces.
+Explain the ternary conditional operator in PHP?
+Expression preceding the ? is evaluated, if it’s true, then the expression preceding the : is executed, otherwise, the expression following : is executed.
+How do I find out the number of parameters passed into function?
+func_num_args() function returns the number of parameters passed in.
+If the variable $a is equal to 5 and variable $b is equal to character a, what’s the value of $$b?
+100, it’s a reference to existing variable.
+What’s the difference between accessing a class method via -> and via ::?
+:: is allowed to access methods that can perform static operations, i.e. those, which do not require object initialization.
+Are objects passed by value or by reference?
+Everything is passed by value.
+How do you call a constructor for a parent class?
+parent::constructor($value)
+What’s the special meaning of __sleep and __wakeup?
+__sleep returns the array of all the variables than need to be saved, while __wakeup retrieves them.
+Why doesn’t the following code print the newline properly? 
+<?php 
+$str = ‘Hello, there.nHow are you?nThanks for visiting Us’;
+print $str;
+?>
+Because inside the single quotes the n character is not interpreted as newline, just as a sequence of two characters – and n.
+Would you initialize your strings with single quotes or double quotes?
+Since the data inside the single-quoted string is not parsed for variable substitution, it’s always a better idea speed-wise to initialize a string with single quotes, unless you specifically need variable substitution.
+How come the code <?php print “Contents: $arr[1]“; ?> works, but <?php print “Contents: $arr[1][2]“; ?> doesn’t for two-dimensional array of mine?
+Any time you have an array with more than one dimension, complex parsing syntax is required. print “Contents: {$arr[1][2]}” would’ve worked. /> - Yes.
+What is the difference between characters �23 and x23?
+The first one is octal 23, the second is hex 23.
+With a heredoc syntax, do I get variable substitution inside the heredoc contents?
+Yes.
