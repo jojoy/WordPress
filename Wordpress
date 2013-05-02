@@ -100,3 +100,36 @@ What is the difference between characters �23 and x23?
 The first one is octal 23, the second is hex 23.
 With a heredoc syntax, do I get variable substitution inside the heredoc contents?
 Yes.
+
+1. How to hide the top admin bar at the frontend of wordpress 3.4?
+
+Add the below mentioned code in the theme(active) function.php add_filter(‘show_admin_bar’, ‘__return_false’);
+
+(or)
+
+Add the below code in the active theme stylesheet
+#wpadminbar {
+display: none; visibility: hidden;
+}
+
+Some frequently asked wordpress question in an interview:
+1: What is the difference between wordpress.com and wordpress.org?
+Answer is here: http://en.support.wordpress.com/com-vs-org/
+2: How to change the text colors in wordpress without changing the theme?
+By going to the theme css file in admin dashboard > Appearance > editor (theme editor).
+If you have the inbuilt color changing options in a particular theme, then changing the colors from there.
+One more option is by editing the theme stylesheet (css file) via loging into the cpanel of wordpress hosting. You can locate any theme's stylesheet inside here: home > wp-content > themes > #themename
+3: How to increase the page load speed of a wordpress site?
+By installing cache plugins such as super cache and W3 Total Cache.
+By minimizing the javascripts, css and html files (you can use w3 total cache plugin or Better wordpress minify plugin)
+By using a free content delivery network (example: cloudflare) or paid CDN (example: MaxCDN)
+By using ajax loading to all images of the wordpress site.
+4: How to install and test Wordpress websites on local computer?
+By using WAMP or XAMP server software (with inbuilt mysql server), which acts as a local webhost.
+5: How to take backup of entire database of wordpress settings and posts?
+By using any of the available database backup plugins or by manually going to cpanel > phpmyadmin > desired database > export (you may export compressed version of the database or text version of the sql file.
+6: Is it possible to install forums along with the wordpress website?
+Yes - by using bbpress forum plugin or by installing and integrating phpBB and other forums, which has the ability to work with wordpress.
+Check the WordPress related questions from this website's WordPress Tag (You will find hell lot of questions & answers there!
+Bonus: You Need to learn Some hardcore php related questions (technical)
+Learn the PHP basics and advanced from here for free:
